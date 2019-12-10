@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+:root {
+    height:100%;
+    box-sizing: border-box;
+    font-family: 'Solway', serif;
+    color: rgb(167, 0, 0);
+    font-size: 26px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.main {
+    text-align: left;
+}
+
+.hero-h1 {
+    text-align: center;
+    color: rgb(145, 0, 0);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1920px;
+    padding: 1rem 1rem;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: hsl(19, 82%, 48%);
+}
+
+nav a:hover {
+    color: red;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: flex-start;
+    align-content: space-around;
+}
+
+.h1 {
+    text-align: center;
+    background-color: cadetblue;
+    
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-wrap: nowrap;
+    align-content: center;
+  }
+
+  .child {
+    width: 40%;
+    height: 40%;
+    background-color: skyblue;
+    }
+
+.hero-text {
+    max-width: 300px;
+    flex: 1;
+}
+
+.hero-button {
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: 100px;
+    background-color: green;
+    color: white;
+}
+
+.hero {
+    font-size: 22px;
+    padding: 5rem 0;
+}
+
+header {
+    background-image: url("https://i.ytimg.com/vi/Ab_KVbMYR3s/maxresdefault.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+body {
+    text-emphasis: none;
+    background-image: url("https://slvyvll.com/wp-content/uploads/2017/04/C8gN_oYU0AA69T6.jpg-large.jpg");
+    background-color: #cccccc;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
